@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Un poco de mi vida</title>
+
+<!-- Tipografías: Inter (texto) + Outfit (título) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@800&display=swap" rel="stylesheet">
+
+<!-- Estilos: archivo CSS externo -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="life" id="vida">
+  <div class="life__inner">
+
+    <!-- ================= COLUMNA IZQUIERDA ================= -->
+    <div class="life__text">
+
+      <span class="badge">📘 Más allá del SENA</span>
+
+      <h2 class="life__title">
+        <span class="t-blue">Un</span>
+        <span class="t-teal">poco de</span>
+        <span class="t-white">mi vida</span>
+      </h2>
+
+      <p class="life__intro">
+        Hola mi nombre es Juan Sebastian Giraldo y les voy a contar un poco de lo que hago en mi vida aparte de la programacion.
+      </p>
+
+      <div class="cards">
+
+        <!-- TARJETA 1: Cocina & Coctelería -->
+        <article class="card">
+          <div class="card__head">
+            <span class="card__icon">⚽</span>
+            <h3 class="card__title">Futbol</h3>
+          </div>
+          <p class="card__text">Me gusta mucho el futbol porque es un deporte divertido qe me permite compartir con muchas personas, mantenerme activo y disfrutar de mi pasion por el deporte.</p>
+          <!-- 🖼️ IMAGEN 1 (burbuja de futbol) -->
+          <div class="bubble"><img src="./images/futbol.jfif" alt="Cocina y coctelería"></div>
+        </article>
+
+        <!-- TARJETA 2: tenis de mesa -->
+        <article class="card">
+          <div class="card__head">
+            <span class="card__icon">🏓</span>
+            <h3 class="card__title">Tenis de mesa</h3>
+          </div>
+          <p class="card__text">Uno de mis deportes favoritos es el tenis de mesa porque es muy entretenido, aparte de eso requiere mucha concentracion, rapidez y buenos reflejos.</p>
+          <!-- 🖼️ IMAGEN 2 (burbuja de pong pong) -->
+          <div class="bubble"><img src="./images/tenisdemesa.jfif" alt="Rutas en bicicleta"></div>
+        </article>
+
+        <!-- TARJETA 3: Carros -->
+        <article class="card">
+          <div class="card__head">
+            <span class="card__icon">🚗</span>
+            <h3 class="card__title">Carros</h3>
+          </div>
+          <p class="card__text">Me llaman mucho mucho la atenion los carros mas que todo por sus diseños, velocidad y la variedad de modelos que existen.</p>
+          <!-- 🖼️ IMAGEN 3 (burbuja de carros) -->
+          <div class="bubble"><img src="./images/carros.jfif" alt="Música"></div>
+        </article>
+
+        <!-- TARJETA 4: videojuegos-->
+        <article class="card">
+          <div class="card__head">
+            <span class="card__icon">🎮</span>
+            <h3 class="card__title">Videojuegos</h3>
+          </div>
+          <p class="card__text">Son una de mis formas favoritas de entretenerme en mi tiempoo libre, me gustan juegos como call of duty, god of war, GTA, etc.</p>
+          <!-- 🖼️ IMAGEN 4 (burbuja de videojuegos) -->
+          <div class="bubble"><img src="./images/videojuegos.jfif" alt="Gaming y anime"></div>
+        </article>
+
+        <!-- TARJETA 5: comer-->
+        <article class="card">
+          <div class="card__head">
+            <span class="card__icon">🍔</span>
+            <h3 class="card__title">Comer</h3>
+          </div>
+          <p class="card__text">Probar diferentes platos es una de las cosas que mas disfruto, me gusta descubrir nuevos sabores y compartir comidas especiales con las personas cercanas a mi.</p>
+          <!-- 🖼️ IMAGEN 5 (comer) -->
+          <div class="bubble"><img src="./images/comida.jfif" alt="Fe y propósito"></div>
+        </article>
+
+        <!-- TARJETA 6: Aventuras con mi perro -->
+        <article class="card">
+          <div class="card__head">
+            <span class="card__icon">🐕</span>
+            <h3 class="card__title">Aventuras con mi perro</h3>
+          </div>
+          <p class="card__text">Paseos, juegos y caminatas largas son parte de mi rutina para mantener el equilibrio físico y mental.</p>
+          <!-- 🖼️ IMAGEN 6 (burbuja de Aventuras con el perro) -->
+          <div class="bubble"><img src="images/perro-aventuras.jpg" alt="Paseo con mi perro"></div>
+        </article>
+
+      </div><!-- /cards -->
+    </div><!-- /life__text -->
+
+    -->
+    <div class="pet">
+
+      <!-- 🖼️ IMAGEN PRINCIPAL: el husky 3D con fondo transparente (PNG)
+           Tamaño recomendado: 900 x 1000 px, formato PNG sin fondo. -->
+      <img class="pet__main" src="images/husky-3d.png" alt="Mi husky">
+
+      <!-- 🖼️ IMAGEN 7 (burbuja del perro): la foto real de tu perro.
+           Tamaño recomendado: 400 x 400 px (cuadrada). -->
+      <div class="bubble"><img src="images/husky-real.jpg" alt="Foto real de mi perro"></div>
+    </div>
+
+  </div><!-- /life__inner -->
+</section>
+
+<!-- Botón de WhatsApp: cambia el número (con código de país, sin + ni espacios) -->
+<a class="whatsapp" href="https://wa.me/573000000000" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<!-- Lógica: archivo JS externo -->
+<script src="script.js"></script>
+</body>
+</html>
