@@ -128,22 +128,22 @@ BURBUJA REDONDA (mini imagen al pasar el cursor)
 /* Se muestra al pasar el cursor por la tarjeta */
 .card:hover .bubble { opacity: 1; transform: scale(1); }
 
-.pet { position: relative; display: grid; place-items: center; }
+.foto { position: relative; display: grid; place-items: center; }
 
-.pet__main {
+.foto__main {
   width: min(100%, 520px);
   filter: drop-shadow(0 25px 40px rgba(0,0,0,.55));
   transition: transform .5s ease;
 }
-.pet:hover .pet__main { transform: scale(1.03) rotate(-1deg); }
+.foto:hover .foto__main { transform: scale(1.03) rotate(-1deg); }
 
 
-.pet .bubble {
+.foto .bubble {
   --bubble: 190px;
   left: 4%; top: 36%;
   transform-origin: right center;
 }
-.pet:hover .bubble { opacity: 1; transform: scale(1); }
+.foto:hover .bubble { opacity: 1; transform: scale(1); }
 
 
 .whatsapp {
@@ -156,9 +156,6 @@ BURBUJA REDONDA (mini imagen al pasar el cursor)
   z-index: 20;
 }
 
-/* =====================================================
-   9. IMAGEN DE RESPALDO (si una imagen no carga, JS pone esto)
-   ===================================================== */
 .img-fallback {
   display: grid; place-items: center;
   width: 100%; height: 100%;
@@ -166,12 +163,9 @@ BURBUJA REDONDA (mini imagen al pasar el cursor)
   color: #8fa3b3; font-size: 11px; text-align: center; padding: 8px;
 }
 
-/* =====================================================
-   10. RESPONSIVE
-   ===================================================== */
 @media (max-width: 900px) {
   .life__inner { grid-template-columns: 1fr; }
-  .pet { order: -1; }                           /* perro arriba en móvil */
+  .foto { order: -1; }                           /* perro arriba en móvil */
 }
 @media (max-width: 520px) {
   .cards { grid-template-columns: 1fr; }
