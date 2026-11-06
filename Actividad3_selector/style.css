@@ -1,0 +1,7 @@
+div  > ul li {
+    background-color: red;
+}
+
+li[data-info]{
+    background-color: bisque;
+}
